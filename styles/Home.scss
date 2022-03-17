@@ -1,0 +1,67 @@
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+
+.idim-root {
+  width: 100%;
+  top: 8%;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  z-index: 2;
+}
+
+.pills-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  color: white;
+}
+
+.pill {
+  cursor: pointer;
+}
+
+.pill-info {
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.payment-form {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  label {
+  }
+
+  input {
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 0.5rem;
+  }
+}
+
+.snap-call-frame {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  background: black;
+  left: 0;
+  z-index: 1;
+}
